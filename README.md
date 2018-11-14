@@ -6,7 +6,7 @@ We capture Twitter feeds based on a specific keyword list (could be hashtags)<br
 The tweet+analysis+goe-coordinates are saved on a Cloudant database for further processing/display etc<br>
 Only tweets with avalaible GeoCoordinates are considered<br>
 
-<br>Example stream:<br>
+<br>### Example stream:<br>
 
 
 #13 date/time: 2018-10-19/15:02:56 country: GB coords: [-5.928412999999999, 54.595869]
@@ -35,15 +35,15 @@ sentiment: {'score': 0.0, 'label': 'neutral'} emotion: {'sadness': 0.407917, 'jo
 text: @Jacob_Rees_Mogg Any idea how much Brexit is and will cost the UK and people who run businesses? You seem to always… https://t.co/meX30hlRYx<br>
 
 
-Geo-localised and sentiment-tagged tweets are read from a Cloudant database and displayed as a heatmap 
+### Geo-localised and sentiment-tagged tweets are read from a Cloudant database and displayed as a heatmap <br>
 
 
 
 
-A ML model is fitted to the data and evaluated to test data
-Aim: predict the sentiment given latitude/longitude
-If the model performance is acceptable on test data, we can use it for anomaly detection
-Incoming data can be compared to predictions and a lag is raised if an anomaly is detected
+### A ML model is fitted to the data and evaluated to test data
+Aim: predict the sentiment given latitude/longitude<br>
+If the model performance is acceptable on test data, we can use it for anomaly detection<br>
+Incoming data can be compared to predictions and a lag is raised if an anomaly is detected<br>
 
 
 
