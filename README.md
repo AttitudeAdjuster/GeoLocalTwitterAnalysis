@@ -36,7 +36,7 @@ text: @Jacob_Rees_Mogg Any idea how much Brexit is and will cost the UK and peop
 
 
 ### Geo-localised and sentiment-tagged tweets are read from a Cloudant database and displayed as a heatmap <br>
-
+[!Alt Brexit Heatmap](https://raw.githubusercontent.com/AttitudeAdjuster/GeoLocalTwitterAnalysis/master/img/Brexit_heatmap.png)
 
 
 
