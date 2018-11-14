@@ -45,22 +45,22 @@ Aim: predict the sentiment given latitude/longitude<br>
 If the model performance is acceptable on test data, we can use it for anomaly detection<br>
 Incoming data can be compared to predictions and a lag is raised if an anomaly is detected<br>
 
-<font face="Courier New">
-Training GBT model...
-Evaluating model on test data...
-+--------------------+---------+--------------------+
-|          prediction|    score|            features|
-+--------------------+---------+--------------------+
-|-0.02673812155075842|-0.888036|[-0.2161080000000...|
-|-0.16844047496706444| -0.81063|[110.333028,1.429...|
-|-0.16595070797070496| -0.75617|[-0.1091815,51.54...|
-|-0.08496630422360758| -0.72438|[-0.442361,51.537...|
-|-0.15084220913585722| -0.48417|[-0.0991635,51.64...|
-+--------------------+---------+--------------------+
-only showing top 5 rows
+<font face="Courier">
+Training GBT model...<br>
+Evaluating model on test data...<br>
++--------------------+---------+--------------------+<br>
+|          prediction|    score|            features|<br>
++--------------------+---------+--------------------+<br>
+|-0.02673812155075842|-0.888036|[-0.2161080000000...|<br>
+|-0.16844047496706444| -0.81063|[110.333028,1.429...|<br>
+|-0.16595070797070496| -0.75617|[-0.1091815,51.54...|<br>
+|-0.08496630422360758| -0.72438|[-0.442361,51.537...|<br>
+|-0.15084220913585722| -0.48417|[-0.0991635,51.64...|<br>
++--------------------+---------+--------------------+<br>
+only showing top 5 rows<br>
 
-Root Mean Squared Error (RMSE) on test data = 0.487036
-R2 on test data = -0.00110838
+Root Mean Squared Error (RMSE) on test data = 0.487036<br>
+R2 on test data = -0.00110838<br>
 </font>
-This model is no better than random choice
+This model is no better than random choice<br>
 
