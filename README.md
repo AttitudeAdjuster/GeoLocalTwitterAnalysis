@@ -40,12 +40,12 @@ text: @Jacob_Rees_Mogg Any idea how much Brexit is and will cost the UK and peop
 
 
 
-### A ML model is fitted to the data and evaluated to test data
+### A Machine Learnig model is fitted to the data and evaluated to test data
 Aim: predict the sentiment given latitude/longitude<br>
 If the model performance is acceptable on test data, we can use it for anomaly detection<br>
 Incoming data can be compared to predictions and a lag is raised if an anomaly is detected<br>
 
-<font face="Corrier New">
+<font face="Courier New">
 Training GBT model...
 Evaluating model on test data...
 +--------------------+---------+--------------------+
