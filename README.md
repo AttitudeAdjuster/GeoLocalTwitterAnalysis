@@ -6,7 +6,7 @@ We capture Twitter feeds based on a specific keyword list (could be hashtags)<br
 The tweet+analysis+goe-coordinates are saved on a Cloudant database for further processing/display etc<br>
 Only tweets with avalaible GeoCoordinates are considered<br>
 
-<br>### Example stream:<br>
+### Example stream
 
 
 #13 date/time: 2018-10-19/15:02:56 country: GB coords: [-5.928412999999999, 54.595869]
@@ -35,7 +35,7 @@ sentiment: {'score': 0.0, 'label': 'neutral'} emotion: {'sadness': 0.407917, 'jo
 text: @Jacob_Rees_Mogg Any idea how much Brexit is and will cost the UK and people who run businesses? You seem to always… https://t.co/meX30hlRYx<br>
 
 
-### Geo-localised and sentiment-tagged tweets are read from a Cloudant database and displayed as a heatmap <br>
+### Geo-localised and sentiment-tagged tweets are read from a Cloudant database and displayed as a heatmap <br>
 ![Brexit Heatmap](https://raw.githubusercontent.com/AttitudeAdjuster/GeoLocalTwitterAnalysis/master/img/Brexit_heatmap.png)
 
 
