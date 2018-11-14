@@ -2,8 +2,8 @@
 Geo-localised analysis of twitter feeds
 
 We capture Twitter feeds based on a specific keyword list (could be hashtags)<br>
-<b>Each tweet is analysed for sentiment and emotion in realtime <br>
-and the tweet+analysis+goe-coordinates are saved on a Cloudant database for further processing/display etc</b><br>
+<b>Each tweet is analysed for sentiment and emotion in realtime <br></b>
+The tweet+analysis+goe-coordinates are saved on a Cloudant database for further processing/display etc<br>
 Only tweets with avalaible GeoCoordinates are considered<br>
 
 <br>Example stream:<br>
@@ -35,7 +35,15 @@ sentiment: {'score': 0.0, 'label': 'neutral'} emotion: {'sadness': 0.407917, 'jo
 text: @Jacob_Rees_Mogg Any idea how much Brexit is and will cost the UK and people who run businesses? You seem to always… https://t.co/meX30hlRYx<br>
 
 
+Geo-localised and sentiment-tagged tweets are read from a Cloudant database and displayed as a heatmap 
 
+
+
+
+A ML model is fitted to the data and evaluated to test data
+Aim: predict the sentiment given latitude/longitude
+If the model performance is acceptable on test data, we can use it for anomaly detection
+Incoming data can be compared to predictions and a lag is raised if an anomaly is detected
 
 
 
