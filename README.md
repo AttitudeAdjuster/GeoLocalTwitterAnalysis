@@ -3,7 +3,7 @@ Geo-localised analysis of twitter feeds
 
 We capture Twitter feeds based on a specific keyword list (could be hashtags)<br>
 <b>Each tweet is analysed for sentiment and emotion in realtime <br></b>
-The tweet+analysis+goe-coordinates are saved on a Cloudant database for further processing/display etc<br>
+The tweet+analysis+geo-coordinates are saved on a Cloudant database for further processing/display etc<br>
 Only tweets with avalaible GeoCoordinates are considered<br>
 
 ### Example stream
